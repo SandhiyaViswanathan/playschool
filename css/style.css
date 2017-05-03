@@ -1,0 +1,358 @@
+body
+{
+    
+
+    background: linear-gradient(
+        rgba(0,0,1,0.02),
+        rgba(0,0,1,0.02)
+        ),url("../img/leaf.png");
+    background-attachment: fixed;
+}
+
+/* naviagtion column*/
+        #navigation,.navbar,.navbar-default
+        {
+            background-color:#3F2507;
+                    }
+        #navtag a
+        {
+            color:white;
+        }
+
+        .glyphicon
+        {
+            font-size: 25px;
+        }
+
+        .navbar-brand img
+        {
+            margin-top:0px;
+            padding:0px 15px;
+            width: 25%;
+            height:100px;
+        }
+        .navbar .navbar-nav {
+            display: inline-block;
+            float: none;
+            padding-right: 10px;
+        }
+
+        .navbar .navbar-collapse {
+            text-align: center;
+        }
+/*end of navigation*/
+
+/*caurosel*/
+
+    #mycarousel
+    {
+        margin-top: 100px;
+        padding-top: 50px;
+
+    }
+    .carousel-caption p
+    {
+        font-size: 25px;
+        font-family: 'Acme', sans-serif;
+        color:mediumspringgreen;
+        font-weight: bold;
+    }
+
+    #mycarousel .item
+    {
+        height: 500px;
+        background-size: 100% 500px;
+    }
+    #slide1
+    {
+        background:url("../img/img1.png") top center no-repeat;
+    }
+    #slide2
+    {
+       background:url("../img/img2.png") top center no-repeat;
+    }
+    #slide3
+    {
+        background:url("../img/img3.png") top center no-repeat;
+    }
+
+/* end of carousal*/
+
+/* start of information row*/
+    #information p
+    {
+        color:white;
+        font-family: 'Acme', sans-serif;
+        font-size:15px;
+        padding-top: 10px;
+    }
+    #information h4
+    {
+        padding-top: 10px;  
+        color:mediumspringgreen;
+        font-family: 'Acme', sans-serif;
+        font-size:25px;
+    }
+
+/* end of information row*/
+
+/* start of panel row*/
+
+    #features h2
+    {
+        text-align: center;
+        font-size: 25px;
+        color:mediumspringgreen;
+        font-family: 'Acme', sans-serif;
+
+    }
+    #features img
+    {
+            width:100%;
+            height:300px;
+
+
+    }
+    #features p
+    {
+        text-align: center;
+        color:mediumvioletred;
+        font-family: 'Acme', sans-serif;
+        font-size:15px;
+
+    }
+    #features h3 
+    {
+        text-align: center;
+        color:red;
+        font-family: 'Acme', sans-serif;
+        font-size:20px;
+    }
+
+    .panel-heading
+    {
+    background-color: lightgray;
+    }
+
+    #level1,#level2,#level3
+    {
+    margin-top: 10px;
+    }
+
+/* end of panel row*/
+
+/* start of jumbotron*/
+    #contact h3
+    {
+        text-align: center;
+        font-family: 'Acme', sans-serif;
+        line-height: 1.1;
+        color: #F1A733;
+        padding-top:0px;
+    }
+    #contact
+    {
+        background-color:seashell;
+        background: linear-gradient;
+
+    }
+    #office
+    {
+        color:mediumvioletred;
+        text-align: center;
+        font-size: 14px;
+    }
+    #office span
+    {
+        font-size: 20px;
+    }
+
+    #office2
+    {
+        color:gray;
+        text-align: center;
+        font-size: 14px;
+    }
+   
+    #office1
+    {
+        color:gray;
+        text-align: center;
+        font-size: 14px;
+    }
+    #visit
+    {
+        color: mediumvioletred;
+        text-align: center;
+    }
+/* end of jumbotron*/
+
+
+/* for admission*/
+    #admission img
+    {
+        height:350px;
+        width:100%;
+
+    }
+    
+/*map column*/
+    #map h4
+    {
+        color:white;
+    }
+    #map iframe
+
+    {
+        width:100%;
+        height:350;
+    }
+/* end of map*/
+
+
+/*start of footer*/
+
+    footer
+    {
+    height: 250px;
+    
+    }
+
+    #endpart ul,li
+    {
+    list-style-type: none;
+    color: white;
+    }
+    #endpart1 ul,li
+    {
+    list-style-type: none;
+    color: white;
+    }
+    #endpart2 ul,li
+    {
+    list-style-type: none;
+    color: white;
+    }
+    #endpart3 ul,li
+    {
+    list-style-type: none;
+    color: white;
+    }
+    #endpart h4
+    {
+        padding-top: 10px;
+        padding-left: 40px;
+        color: white;
+    }
+    #endpart1 h4
+    {
+        padding-top: 10px;
+        padding-left: 40px;
+        color: white;
+    }
+    #endpart2 h4
+    {
+        padding-top: 10px;
+        padding-left: 40px;
+        color: white;
+    }
+    #endpart3 h4
+    {
+        padding-top: 10px;
+        padding-left: 40px;
+        color: white;
+    }
+    #end
+
+    {
+        background-color:#3F2507;
+    }
+    .space
+    {
+    padding:0px;
+    }
+/* end of footer*/
+
+
+/* media query*/
+    @media (max-width: 480px) {
+
+
+    #mycarousel .item
+    {
+        height: 310px;
+
+    }
+    #slide1
+    {
+        background:url("../img/img1.png") top center no-repeat;
+    }
+    #slide2
+    {
+       background:url("../img/img2.png") top center no-repeat;
+    }
+    #slide3
+    {
+        background:url("../img/img3.png") top center no-repeat;
+    }
+    .carousel-caption
+    {
+        font-size: 10px;
+    }
+    }
+
+    @media(max-width: 768px)
+    {
+    #mycarousel .item
+    {
+        height: 310px;
+
+    }
+    #slide1
+    {
+        background:url("../img/img1.png") top center no-repeat;
+    }
+    #slide2
+    {
+       background:url("../img/img2.png") top center no-repeat;
+    }
+    #slide3
+    {
+        background:url("../img/img3.png") top center no-repeat;
+    }
+    .carousel-caption
+    {
+        font-size: 16px;
+    }
+
+    }
+
+    @media(min-width: 1200px)
+    {
+    #mycarousel .item
+    {
+        height: 500px;
+
+    }
+    #slide1
+    {
+        background:url("../img/img1.png") top center no-repeat;
+    }
+    #slide2
+    {
+       background:url("../img/img2.png") top center no-repeat;
+    }
+    #slide3
+    {
+        background:url("../img/img3.png") top center no-repeat;
+    }
+    .carousel-caption
+    {
+        font-size: 25px;
+    }
+
+/* end of media query*/
+
+
+
+
