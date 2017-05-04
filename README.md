@@ -1,2 +1,0 @@
-# playschool
-bootstrap project
